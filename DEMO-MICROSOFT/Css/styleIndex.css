@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 13px; 
+	font-family: "Open Sans",  sans-serif;
+}
+
+body{
+        background-image: url(https://media.istockphoto.com/vectors/triangles-abstract-background-fiery-orange-vector-id695646470?k=20&m=695646470&s=170667a&w=0&h=omKaipRB_1pbUAC4zcz5tJbQsuv1IvB2_KcGfzcplPE=);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+
+.form{
+	width: 370px; height: 455px; position: relative;
+	margin: 6% auto; background: linear-gradient(to bottom,#F39C12, #E67E22,#E74C3C);
+	padding: 5px; border-radius: 10px; overflow: hidden;
+	box-shadow: 0px 0px 10px 5px #ac1cc3;
+}
+
+.button{
+	width: 240px; margin: 30px auto;
+	position: relative; box-shadow: 0 0 15px 9px purple; 
+	border-radius: 30px;
+}
+
+.el-btn{
+	padding: 10px 22px; 
+	cursor: pointer;
+	background-color: transparent;
+	border: 0; outline: none; position: relative;
+}
+
+#elegir{
+	top: 0; left: 0; position: absolute;
+	width: 120px; height: 100%; border-radius: 30px;
+	background: linear-gradient(to right, #A93226, #EC7063 );
+	transition: 0.8s;
+}
+
+.logo{
+	margin: 30px auto; text-align: center;
+}
+
+.logo img{
+	width: 150px; margin: 0 12px; 
+}
+
+.resp{
+	top: 180px; position: absolute;
+	width: 280px; transition: 0.8s; margin-top: 70px;
+}
+
+.cjas{
+	width: 100%; padding: 10px 0; margin: 5px 0;  
+	border-left: 0; border-right: 0;
+	border-radius: 0; border-top: 0;
+	border-bottom: 2px solid red;
+	outline: none; background: transparent; 
+}
+
+.ev-btn{
+	width: 85%; padding: 10px 30px; cursor: pointer;
+	display: block; margin: auto;
+	background: linear-gradient(to right, #A93226,#EC7063, #A93226 );
+	border: 0; outline: none; border-radius: 30px;
+}
+
+#login{
+	left: 50px; 
+}
+
+#registrar{
+	left: 450px; 
+}
+
+::placeholder{
+	color: #404040;
+}
